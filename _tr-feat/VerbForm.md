@@ -22,14 +22,14 @@ we treat the word like a verbal noun.
 #### Examples
 
 - _okuyacağım kitap_ "the book that I will read"
-- _Ali'nin okuduğu kitap_ "the book that I has read"
+- _Ali'nin okuduğu kitap_ "the book that Ali has read"
 - _okuyour olduğun kitap_ "the book that you are reading"
 
 ### `Trans`: transgressive
 
 The transgressive, also called adverbial participle,
 is a non-finite verb form that shares properties of verbs and adverbs.
-In Turkish linguistics, these words are normally called _converbs_.
+Among Turkish linguistics, these words are normally called _converbs_.
 However, since the UD definition `Trans` covers the use of converbs,
 we use the same label.
 
