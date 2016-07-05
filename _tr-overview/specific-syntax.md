@@ -61,7 +61,7 @@ way (the meaning is slightly different than the cases where *var* or
 the clause.
 
 ~~~~ sdparse
-Bunun bir bedeli olur. \n This would have a consequence
+Bunun bir bedeli olur. \n This will have a consequence
 nsubj(olur, bedeli)
 det(bedeli, bir)
 nmod:own(olur, bunun)
@@ -99,12 +99,12 @@ yet'. In these cases, the relation is `ccomp` `xcomp`.
 
 ## Yes/no questions an the question particle
 
-Yes-no questions in Turkish is formed by question particle -mI
+Yes-no questions in Turkish are formed by question particle -mI
 (mı/mi/mu/mü). UD currently does not have a clear way of marking
 question particles.
 
 We mark question particles as `AUX`, and (for now) introduce a new
-feature `Question` that is set for question particles as well as
+feature `Question` that is a set for question particles as well as
 other words that introduce questions (`PronType=Int` is also used, but
 likely it is not sufficient/suitable in this case).
 
@@ -125,30 +125,30 @@ Yarın siz Ankara'ya gideceksiniz. \n You will go to Ankara tomorrow.
 ~~~~
 
 ~~~~ sdparse
-Yarın siz Ankara'ya gidecek misiniz. \n Will you go to Ankara tomorrow?
+Yarın siz Ankara'ya gidecek misiniz? \n Will you go to Ankara tomorrow?
 ~~~~
 
 ~~~~ sdparse
-Siz Ankara'ya yarın mı gideceksiniz. \n Will you go to Ankara TOMORROW? 
+Siz Ankara'ya yarın mı gideceksiniz? \n Will you go to Ankara TOMORROW? 
 ~~~~
 
 ~~~~ sdparse
-Siz yarın Ankara'ya mı gideceksiniz. \n Will you go TO ANKARA tomorrow?
+Siz yarın Ankara'ya mı gideceksiniz? \n Will you go TO ANKARA tomorrow?
 ~~~~
 
 ~~~~ sdparse
-Yarın Ankara'ya siz mi gideceksiniz. \n Will YOU go to Ankara tomorrow?
+Yarın Ankara'ya siz mi gideceksiniz? \n Will YOU go to Ankara tomorrow?
 ~~~~
 
 Although there is a preference to place the question particle and the
-word modifies close to the verb, other word orders are also possible:
+word that it modifies close to the verb, other word orders are also possible:
 
 ~~~~ sdparse
-Yarın siz mi Ankara'ya gideceksiniz. \n Will YOU go to Ankara tomorrow?
+Yarın siz mi Ankara'ya gideceksiniz? \n Will YOU go to Ankara tomorrow?
 ~~~~
 or, 
 ~~~~ sdparse
-Siz mi yarın Ankara'ya gideceksiniz. \n Will YOU go to Ankara tomorrow?
+Siz mi yarın Ankara'ya gideceksiniz? \n Will YOU go to Ankara tomorrow?
 ~~~~
 
 In these cases, we attach the question particle to the word/phrase it
@@ -157,7 +157,7 @@ and relation label.
 
 Above covers the use of *-mI* as question particle. *-mI* may also be
 used as a subordinating conjunction as in *Okulu bitirdin mi işin
-hazız* 'when/if you finish the school, your job is waiting for you'.
+hazır* 'when/if you finish the school, your job is waiting for you'.
 In this case, we treat it like a `SCONJ` introducing a conditional
 adverbial clause. It is attached to the head of the clause with
 `mark`.
@@ -190,10 +190,10 @@ The relation between a light verb and the noun it modifies noun is `compound`.
 The noun should be marked as the head of the compound.
 
 ~~~~ sdparse
-Ali Ahmet'e yardım etti. \n Ali helped ahmet
+Ali Ahmet'e yardım etti. \n Ali helped Ahmet
 compound(yardım, etti)
-nsubj(yardim, Ali)
-dobj(yardim, Ahmet)
+nsubj(yardım, Ali)
+dobj(yardım, Ahmet)
 ~~~~
 
 
