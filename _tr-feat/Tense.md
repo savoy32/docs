@@ -6,9 +6,9 @@ shortdef: 'tense'
 
 Turkish has a complex tense/aspect/modality system.
 
-Turkish verbs can indicates actions in the present, past or future.
+Turkish verbs can indicate actions in the present, past or future.
 Complex tenses for actions that happened before, during, and after a past event can also be specified by suffixation.
-The actions that happen before/after/during a future event is expressed using an auxiliary.
+The actions that happen before/after/during a future event are expressed using an auxiliary.
 
 The verbs expressing actions that happened before a reference in the past are marked with value `Pqp`.
 For events that happen during the past reference, we use `Tense=Past` with proper progressive (`Prog`) or habitual (not in current UD specification) `Aspect`.
@@ -23,11 +23,11 @@ These suffixes also combine with others to refer to time relative to a past even
 #### Examples
 
 * *eve gitti* 'she went home'
-* *eve gitmiş* 'she went home' (evidential: speaker does not have direct information on the event)
+* *eve gitmiş* 'she went home' (non-evidential: speaker does not have direct information on the event)
 * *eve gitmeliydi* 'she should have gone home'
 * *eve gitseydi* 'if she went home'
 * *hastaydı* 'she was sick'
-* *hastaymış* 'she was sick' (evidential)
+* *hastaymış* 'she was sick' (non-evidential)
 
 ### `Fut`: future tense
 
