@@ -34,7 +34,7 @@ the verb roots that can become reciprocal is limited.
 
 #### Examples
 
-* _gör<b>üş</b>tüler_ "they meet (lit: they see each other)"
+* _gör<b>üş</b>tüler_ "they met (lit: they see each other)"
 
 ### `Cau`: causative voice
 
@@ -42,13 +42,13 @@ the verb roots that can become reciprocal is limited.
 In Turkish, that this is a feature of verbs.
 Not to be caused with causative case of nouns in some languages.
 
-In causative constructions the subject is the entity "causing" the action. It generally translate to English as 'cause/make/have/let/allow' someone to perform action described by the main verb.
-Many (lexicalized) verbs that have unrelated roots in other languages are formed are related by the causative suffix in Turkish, 
+In causative constructions the subject is the entity "causing" the action. It is generally translated into English as 'cause/make/have/let/allow' someone to perform an action described by the main verb.
+Many (lexicalized) verbs that have unrelated roots in other languages are formed by the causative suffix in Turkish, 
 e.g., _öl-_ "die" and _öl-<b>dür</b>_ "kill" (to cause someone to die). 
 Causative suffix is quite productive.
 Multiple causative suffixes can be attached to a verb,
-and the number of causative suffixes are theoretically unbounded.
-In practice, however, the cases where more than two causative suffixes attached to a verb is rather rare.
+and the number of causative suffixes is theoretically unbounded.
+In practice, however, the cases where more than two causative suffixes are attached to a verb are rather rare.
 Often, two or more causative suffixes are used for emphasis and do not express multiple levels of causation.
 
 (**TODO:** multiple causatives need a solution.  See this [issue](https://github.com/UniversalDependencies/docs/issues/197) for details.)
